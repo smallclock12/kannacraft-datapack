@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "minecraft:dolphin" }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kannacraft:advancements/dolphin_brutality_check"
+  }
+}

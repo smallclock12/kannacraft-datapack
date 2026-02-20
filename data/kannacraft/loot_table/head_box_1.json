@@ -1,0 +1,134 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:white_shulker_box",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Head Box 1",
+                                    "color": "light_purple",
+                                    "underlined": false,
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:container": [
+                                    {
+                                        "slot": 0,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count":1,
+                                            "components": {
+                                                "minecraft:custom_name":"Creeper",
+                                                "minecraft:profile":{ "name":"Fej" }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 1,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Chucken",
+                                                "minecraft:profile":{ "name":"ghosterystore" }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 2,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Mouse",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3OWUwOTI1MjgxNzMxNGJkMGI2OTRmN2Q1M2I0OGFmMmM3ZmE4NDk5MTA5ODAyYTQxYmIyOTRkMmY5M2UzZSJ9fX0="
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 3,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Coffee Machine",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQxMjcxZGYzMzFhOTE5YjU5NWNmYjIxOGY4Mjk1ZmRjZjYyNDMwOGU1NzJlNWViODMxMDQ5M2JmMzU0NjkyZiJ9fX0="
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 4,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Pink Yarn",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMwODk0ODNiYWUwODNiY2MwMmU3ZGIzOWQ0ODdmZWRiMjQ1ODAzMjkzYjU0MzIyNDRhYjAwMzRhMDQ3N2I0ZCJ9fX0="
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 5,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Shellfruit",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJkODAyY2QyMDdmMTk3MWEyZWI4MjZmMWE3NDc3NzQwODMzYzkyMGRiMDBjZDVjOTkyMTc2YzY3NjcyZGJmNSJ9fX0="
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

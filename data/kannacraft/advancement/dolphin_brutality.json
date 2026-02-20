@@ -1,0 +1,16 @@
+{
+  "parent": "kannacraft:kill_ender_dragon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:dolphin_spawn_egg" },
+    "title": { "text": "[WIP] Dolphin Brutality" },
+    "description": { "text": "Support the server by defeating 50 dolphins in battle :)" }
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage"
+  }
+}

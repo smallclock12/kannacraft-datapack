@@ -1,0 +1,16 @@
+{
+  "parent": "kannacraft:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:diamond_block" },
+    "title": { "text": "[WIP] Diamond Rich!" },
+    "description": { "text": "Hand in 10 diamonds blocks at spawn" }
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage"
+  }
+}

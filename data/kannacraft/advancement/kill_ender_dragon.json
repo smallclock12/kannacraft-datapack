@@ -1,0 +1,19 @@
+{
+  "parent": "kannacraft:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "minecraft:ender_dragon" }
+      }
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:ender_dragon_spawn_egg" },
+    "title": { "text": "[WIP] Defeat the ender dragon!" },
+    "description": { "text": "Defeat the enderdragon for a special reward" }
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage"
+  }
+}

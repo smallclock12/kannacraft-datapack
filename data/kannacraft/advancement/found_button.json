@@ -1,0 +1,18 @@
+{
+  "parent": "kannacraft:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:book" },
+    "title": { "text": "Find the button!" },
+    "description": { "text": "Find the button at spawn! There might be a hint in the book..." }
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage",
+    "loot": ["kannacraft:head_box_1"],
+    "experience": 160
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:pink_wool" },
+    "title": { "text": "KannaCraft Advancements" },
+    "description": { "text": "Earn rewards like heads, claimblocks and sethomes by completing these advancements!" },
+    "background": "minecraft:block/pink_wool",
+    "show_toast": false,
+    "announce_to_chat": false
+  }
+}
