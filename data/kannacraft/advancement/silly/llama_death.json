@@ -1,0 +1,30 @@
+{
+  "parent": "kannacraft:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": { "type": "minecraft:llama" }
+      }
+    }
+  },
+  "display": {
+    "icon": { 
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": { 
+          "properties": [{
+              "name":"textures",
+              "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE0ZWVkODU2OTdjNzhmNDYyYzRlYjU2NTNiMDViNzY1NzZjMTE3OGY3MDRmM2M1Njc2ZjUwNWQ4ZjM5ODNiNCJ9fX0="
+          }]
+        }
+      }
+    },
+    "title": { "text": "Defeated by a llama" },
+    "description": { "text": "Battle a llama and lose" }
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage",
+    "loot": ["kannacraft:llama"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "kannacraft:support/namemc_like",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:map" },
+    "title": { "text": "[WIP] Join & Link your discord account" },
+    "description": { "text": "" }
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage"
+  }
+}
