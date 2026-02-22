@@ -10,10 +10,12 @@
   },
   "display": {
     "icon": { "id": "minecraft:ender_dragon_spawn_egg" },
-    "title": { "text": "[WIP] Defeat the ender dragon!" },
+    "title": { "text": "Defeat the ender dragon!" },
     "description": { "text": "Defeat the enderdragon for a special reward" }
   },
   "rewards": {
-    "function": "kannacraft:rankup_stage"
+    "experience": 1000,
+    "function": "kannacraft:rankup_stage",
+    "loot":["kannacraft:dragon"]
   }
 }

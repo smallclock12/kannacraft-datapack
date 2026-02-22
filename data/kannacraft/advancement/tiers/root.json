@@ -1,5 +1,4 @@
 {
-  "parent": "kannacraft:tiers/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

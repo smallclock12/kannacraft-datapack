@@ -1,0 +1,71 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:elytra",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Dragon Wing Elytra",
+                                    "color": "red",
+                                    "underlined": false,
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "A set of Elytra fashioned from dragon wings.",
+                                    "color": "red"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "mending": 1,
+                                "unbreaking": 5,
+                                "protection": 2,
+                                "fire_protection": 2
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "armor",
+                                    "operation": "add_value",
+                                    "amount": 6,
+                                    "slot": "chest",
+                                    "id": "kannacraft:dragon_elytra_armor"
+                                },
+                                {
+                                    "attribute": "armor_toughness",
+                                    "operation": "add_value",
+                                    "amount": 2,
+                                    "slot": "chest",
+                                    "id": "kannacraft:dragon_elytra_armor_toughness"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

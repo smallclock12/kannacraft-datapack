@@ -7,10 +7,12 @@
   },
   "display": {
     "icon": { "id": "minecraft:dolphin_spawn_egg" },
-    "title": { "text": "[WIP] Dolphin Brutality" },
+    "title": { "text": "Dolphin Brutality" },
     "description": { "text": "Support the server by defeating 50 dolphins in battle :)" }
   },
   "rewards": {
+    "experience": 160,
+    "loot": ["kannacraft:dolphin"],
     "function": "kannacraft:rankup_stage"
   }
 }

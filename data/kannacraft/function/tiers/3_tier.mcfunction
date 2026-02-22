@@ -5,3 +5,5 @@ execute unless score @s TierSuccessResult = .success TierSuccessResult run minec
 function gu:generate with entity @s
 function kannacraft:macros/lp_promote_tiers with storage gu:main
 function kannacraft:tiers/announce {tier: 3}
+
+tellraw @s {text:"You now have access to /nick!", color:blue}
