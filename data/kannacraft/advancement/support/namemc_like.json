@@ -17,6 +17,9 @@
     }
   },
   "rewards": {
-    "function": "kannacraft:rankup_stage"
+    "function": "kannacraft:rankup_stage",
+    "loot": [
+      "kannacraft:own_head"
+    ]
   }
 }
