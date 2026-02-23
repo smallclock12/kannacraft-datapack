@@ -5,11 +5,20 @@
     }
   },
   "display": {
-    "icon": { "id": "minecraft:pink_wool" },
-    "title": { "text": "Welcome to KannaCraft" },
-    "description": { "text": "Earn rewards like heads, claimblocks and sethomes by completing KannaCraft advancements!" },
+    "icon": {
+      "id": "minecraft:pink_wool"
+    },
+    "title": {
+      "text": "Welcome to KannaCraft"
+    },
+    "description": {
+      "text": "Earn rewards like heads, claimblocks and sethomes by completing KannaCraft advancements!"
+    },
     "background": "minecraft:block/pink_wool",
     "show_toast": true,
     "announce_to_chat": true
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage"
   }
 }

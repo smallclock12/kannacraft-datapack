@@ -6,9 +6,15 @@
     }
   },
   "display": {
-    "icon": { "id": "minecraft:map" },
-    "title": { "text": "[WIP] Like the server on namemc" },
-    "description": { "text": "Support the server by liking the server on namemc! (we only check every 5 minutes so sit tight)" }
+    "icon": {
+      "id": "minecraft:banner_pattern"
+    },
+    "title": {
+      "text": "Like the server on namemc"
+    },
+    "description": {
+      "text": "Support the server by liking the server on namemc! (we only check every 5 minutes so sit tight)"
+    }
   },
   "rewards": {
     "function": "kannacraft:rankup_stage"
