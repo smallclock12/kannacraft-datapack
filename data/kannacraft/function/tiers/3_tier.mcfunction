@@ -1,4 +1,4 @@
-execute unless score @s Rank = .tier3 Rank run minecraft:return fail
+execute unless score @s Rank >= .tier3 Rank run minecraft:return fail
 execute store success score @s TierSuccessResult run advancement grant @s only kannacraft:tiers/3
 execute unless score @s TierSuccessResult = .success TierSuccessResult run minecraft:return fail
 
