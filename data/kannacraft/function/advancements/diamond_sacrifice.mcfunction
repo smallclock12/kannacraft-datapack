@@ -6,6 +6,10 @@ execute if score .success KannaCraftSuccess > .diamondsuccess KannaCraftSucccess
 
 scoreboard players add @s DiamondSacrifice 1
 
+execute store result storage kannacraft:tmp diamondcount int 1 run scoreboard players get @s DiamondSacrifice
+
+function kannacraft:logs/diamond_sacrifice with storage kannacraft:tmp
+
 execute if score @s DiamondSacrifice >= .tier1 DiamondSacrifice run advancement grant @s only kannacraft:diamond_sacrifice_1
 execute if score @s DiamondSacrifice >= .tier2 DiamondSacrifice run advancement grant @s only kannacraft:diamond_sacrifice_2
 execute if score @s DiamondSacrifice >= .tier3 DiamondSacrifice run advancement grant @s only kannacraft:diamond_sacrifice_3

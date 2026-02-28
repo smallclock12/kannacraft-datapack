@@ -1,0 +1,64 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": ["zombie"]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:flow_pottery_sherd",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Runic Shard",
+                                    "color": "dark_purple",
+                                    "underlined": false,
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "append",
+                            "lore": [
+                                {
+                                    "text": "A shard filled with runic energy.",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "I wonder if this can be traded somewhere?",
+                                    "color": "blue",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "unbreaking": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

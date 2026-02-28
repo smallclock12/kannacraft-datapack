@@ -5,4 +5,5 @@ function gu:generate with entity @s
 
 function #kannacraft:tiers
 
-function kannacraft:macros/acb_500 with storage gu:main
+data merge storage gu:main {acb:500}
+function kannacraft:macros/acb with storage gu:main

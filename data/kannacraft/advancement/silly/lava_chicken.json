@@ -1,0 +1,15 @@
+{
+  "parent": "kannacraft:silly/bee_death",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:music_disc_lava_chicken" },
+    "title": { "text": "LAVA CHICKEN" },
+    "description": { "text": "Play lava chicken 10 times (the whole way, no cheating!)" }
+  },
+  "rewards": {
+  }
+}
