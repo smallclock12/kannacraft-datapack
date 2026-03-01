@@ -25,6 +25,7 @@
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
-    "loot": ["kannacraft:llama"]
+    "loot": ["kannacraft:llama"],
+    "experience": 100
   }
 }

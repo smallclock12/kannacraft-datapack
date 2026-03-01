@@ -11,5 +11,8 @@
     "description": { "text": "Play lava chicken 10 times (the whole way, no cheating!)" }
   },
   "rewards": {
+    "function": "kannacraft:rankup_stage",
+    "loot": ["kannacraft:head_box_2"],
+    "experience": 100
   }
 }

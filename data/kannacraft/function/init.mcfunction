@@ -10,6 +10,7 @@ scoreboard objectives add KannaCraftRankAcb dummy
 scoreboard objectives add kclavachickencooldown dummy
 scoreboard objectives add kclavachickencount dummy
 scoreboard objectives add kcplaytime minecraft.custom:minecraft.play_time
+scoreboard objectives add kcwalk minecraft.custom:minecraft.walk_one_cm
 
 # displays
 scoreboard objectives setdisplay list Rank
@@ -23,6 +24,8 @@ scoreboard players set .success KannaCraftSuccess 1
 scoreboard players set .check DolphinBrutalityCheck 100
 scoreboard players set .check kclavachickencount 10
 scoreboard players set .check kclavachickencooldown 2400
+scoreboard players set .check100 kcwalk 100000000
+scoreboard players set .check1000 kcwalk 1000000000
 scoreboard players set .default RankUp 0
 scoreboard players set .reduce RankUp 1
 

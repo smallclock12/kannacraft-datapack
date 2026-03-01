@@ -1,4 +1,5 @@
 {
+  "parent": "kannacraft:checks/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:player_killed_entity",

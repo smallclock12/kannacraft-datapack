@@ -1,0 +1,14 @@
+{
+  "parent": "kannacraft:checks/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "kannacraft:advancements/walk_check"
+  }
+}

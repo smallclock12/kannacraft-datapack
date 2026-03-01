@@ -1,0 +1,24 @@
+{
+  "parent": "kannacraft:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "kannacraft:water_alter"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:angler_pottery_sherd" },
+    "title": { "text": "[WIP] Visit the water alter" },
+    "description": { "text": "" }
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage"
+  }
+}
+

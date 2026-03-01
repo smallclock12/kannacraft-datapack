@@ -1,5 +1,5 @@
 {
-  "parent": "kannacraft:root",
+  "parent": "kannacraft:checks/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:item_used_on_block",

@@ -1,0 +1,166 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:light_blue_shulker_box",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Head Box 2",
+                                    "color": "light_purple",
+                                    "underlined": false,
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:container": [
+                                    {
+                                        "slot": 0,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Taco",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThjZWQ3NGEyMjAyMWE1MzVmNmJjZTIxYzhjNjMyYjI3M2RjMmQ5NTUyYjcxYTM4ZDU3MjY5YjM1MzhjZiJ9fX0="
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 1,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Beach Ball",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1YWIwNWVhMjU0YzMyZTNjNDhmM2ZkY2Y5ZmQ5ZDc3ZDNjYmEwNGU2YjVlYzJlNjhiM2NiZGNmYWMzZmQifX19"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 2,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Enchantment Table",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2MmExNWIwNDY5MmEyZTRiM2ZiMzY2M2JkNGI3ODQzNGRjZTE3MzJiOGViMWM3YTlmN2MwZmJmNmYifX19"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 3,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Note Block",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlZWI3N2Q0ZDI1NzI0YTljYWYyYzdjZGYyZDg4Mzk5YjE0MTdjNmI5ZmY1MjEzNjU5YjY1M2JlNDM3NmUzIn19fQ"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 4,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Raspberry",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjEyZWYxYjQ4NmU5N2U0Y2IxMjRhYTc2MjlhY2ViOTFlZGM1MWQ2MzMzOGM5MWEwMTI4ODU0OTNjNWQ5YyJ9fX0"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 5,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Burger",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQxMWNiNTRhYWExZTNkYjU1NWM3ODVmNmI3NWJlMWJmOGU2OGIyOGU1Y2ZjNTljOWE4NzY4OTRmNjFjZGMxNyJ9fX0"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "slot": 6,
+                                        "item": {
+                                            "id": "minecraft:player_head",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:custom_name":"Ale",
+                                                "minecraft:profile":{  
+                                                    "properties": [
+                                                        {
+                                                            "name":"textures",
+                                                            "value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBjOGFhMTNlMTJhZjYxNWNiMzYyZjhhZjk0ZGQ1ZWEyNzgxODM5MDdmZTBhYmQ4NGQ2NWEwNzk5OTJkYTQifX19"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

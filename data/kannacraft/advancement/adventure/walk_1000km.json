@@ -1,0 +1,17 @@
+{
+  "parent": "kannacraft:adventure/walk_100km",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:diamond_boots" },
+    "title": { "text": "Walk 1000km" },
+    "description": { "text": "" }
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage",
+    "loot": ["kannacraft:boots_2"]
+  }
+}
