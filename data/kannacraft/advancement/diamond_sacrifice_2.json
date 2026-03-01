@@ -8,7 +8,11 @@
   "display": {
     "icon": { "id": "minecraft:diamond_block" },
     "title": { "text": "Diamond Sacrifice!!" },
-    "description": { "text": "Sacrifice 10 diamond blocks at spawn" }
+    "description": [
+      { "text": "Sacrifice 10 diamond blocks at spawn.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Diamond Block Head", "color": "blue", "bold": true }
+    ]
   },
   "rewards": {
     "loot": ["kannacraft:diamond_sacrifice_2"],

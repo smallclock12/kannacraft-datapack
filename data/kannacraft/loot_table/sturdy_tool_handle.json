@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:breeze_rod",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Sturdy Tool Handle",
+                                    "color": "aqua",
+                                    "bold": true,
+                                    "italic": false,
+                                    "underlined": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "unbreaking": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 698
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 300,
+                    "value": "kannacraft:runic_water_shard"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 2,
+                    "value": "kannacraft:sturdy_tool_handle"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 24
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 24,
+                    "name": "minecraft:rotten_flesh"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:diamond"
+                }
+            ]
+        }
+    ]
+}

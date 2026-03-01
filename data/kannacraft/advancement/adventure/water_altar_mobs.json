@@ -1,0 +1,27 @@
+{
+  "parent": "kannacraft:adventure/visit_water_altar",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { 
+      "id":"breeze_rod",
+      "components":{
+        "minecraft:custom_name": { "text": "Sturdy Tool Handle", "italic": false, "underlined": false, "bold": true, "color": "aqua" },
+        "minecraft:enchantments": {"minecraft:unbreaking": 5}
+      }
+    },
+    "title": { "text": "Kill 100 Water Altar Guardians" },
+    "description": [
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Sturdy Tool Handle", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage",
+    "loot": ["kannacraft:sturdy_tool_handle"]
+  }
+}
+

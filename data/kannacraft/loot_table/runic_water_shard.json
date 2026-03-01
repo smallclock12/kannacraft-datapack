@@ -1,13 +1,8 @@
 {
-    "type": "minecraft:entity",
+    "type": "minecraft:loot_table",
     "pools": [
         {
             "rolls": 1,
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -22,8 +17,8 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "text": "Runic Shard",
-                                    "color": "dark_purple",
+                                    "text": "Runic Water Shard",
+                                    "color": "blue",
                                     "underlined": false,
                                     "bold": true,
                                     "italic": false
@@ -35,7 +30,7 @@
                             "mode": "append",
                             "lore": [
                                 {
-                                    "text": "A shard filled with runic energy.",
+                                    "text": "A shard filled with water energy.",
                                     "color": "blue",
                                     "italic": false
                                 },

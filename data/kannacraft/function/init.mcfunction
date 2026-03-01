@@ -22,6 +22,7 @@ scoreboard players set .tier3 DiamondSacrifice 64
 scoreboard players set .success TierSuccessResult 1
 scoreboard players set .success KannaCraftSuccess 1
 scoreboard players set .check DolphinBrutalityCheck 100
+scoreboard players set .checkafter DolphinBrutalityCheck 99
 scoreboard players set .check kclavachickencount 10
 scoreboard players set .check kclavachickencooldown 2400
 scoreboard players set .check100 kcwalk 100000000

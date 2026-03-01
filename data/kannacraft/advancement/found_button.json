@@ -8,7 +8,11 @@
   "display": {
     "icon": { "id": "minecraft:book" },
     "title": { "text": "Find the button!" },
-    "description": { "text": "Find the button at spawn! There might be a hint in the book..." }
+    "description": [
+      { "text": "Just find the button at spawn... There might be a hint in the book.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Head Box 1", "color": "blue", "bold": true }
+    ]
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",

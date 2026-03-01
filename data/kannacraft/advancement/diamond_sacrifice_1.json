@@ -8,7 +8,11 @@
   "display": {
     "icon": { "id": "minecraft:diamond_block" },
     "title": { "text": "Diamond Sacrifice" },
-    "description": { "text": "Sacrifice a diamond block at spawn" }
+    "description": [
+      { "text": "Sacrifice a diamond block at spawn.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Diamond Ore Head", "color": "blue", "bold": true }
+    ]
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",

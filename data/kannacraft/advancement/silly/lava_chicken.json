@@ -8,7 +8,12 @@
   "display": {
     "icon": { "id": "minecraft:music_disc_lava_chicken" },
     "title": { "text": "LAVA CHICKEN" },
-    "description": { "text": "Play lava chicken 10 times (the whole way, no cheating!)" }
+    "description": [
+      { "text": "Play lava chicken 10 times.\n", "color": "white" },
+      { "text": "The whole way, no cheating!.\n", "color": "gray" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Head Box 2", "color": "blue", "bold": true }
+    ]
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",

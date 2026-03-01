@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 16,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "kannacraft:runic_water_shard"
+                }
+            ]
+        }
+    ]
+}

@@ -8,7 +8,11 @@
   "display": {
     "icon": { "id": "minecraft:iron_boots" },
     "title": { "text": "Walk 100km" },
-    "description": { "text": "" }
+    "description": [
+      { "text": "Just walk 100km.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Thunder Boots", "color": "blue", "bold": true }
+    ]
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",

@@ -1,0 +1,1 @@
+minecraft:summon villager ~ ~ ~ {Tags:["water_altar_researcher"],Persistent:true,Silent:true,CustomName:["Water Altar Researcher"],Invulnerable:true,VillagerData:{type:snow,profession:fisherman,level:99},Offers:{Recipes:[]}}

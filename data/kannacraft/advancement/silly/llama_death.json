@@ -4,7 +4,7 @@
     "requirement": {
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
-        "entity": { "type": "minecraft:llama" }
+        "entity": { "type": ["minecraft:llama", "minecraft:trader_llama"] }
       }
     }
   },
@@ -21,7 +21,11 @@
       }
     },
     "title": { "text": "Defeated by a llama" },
-    "description": { "text": "Battle a llama and lose" }
+    "description": [
+      { "text": "Battle a llama and lose.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Llama Head", "color": "blue", "bold": true }
+    ]
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",

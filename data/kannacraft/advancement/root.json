@@ -11,9 +11,9 @@
     "title": {
       "text": "Welcome to KannaCraft"
     },
-    "description": {
-      "text": "Earn rewards like heads, claimblocks and sethomes by completing KannaCraft advancements!"
-    },
+    "description": [
+      { "text": "Earn rewards like heads, claimblocks and sethomes by completing KannaCraft advancements!", "color": "white" }
+    ],
     "background": "minecraft:block/pink_wool",
     "show_toast": true,
     "announce_to_chat": true

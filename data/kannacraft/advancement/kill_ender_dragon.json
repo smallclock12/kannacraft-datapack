@@ -11,7 +11,11 @@
   "display": {
     "icon": { "id": "minecraft:ender_dragon_spawn_egg" },
     "title": { "text": "Defeat the ender dragon!" },
-    "description": { "text": "Defeat the enderdragon for a special reward" }
+    "description": [
+      { "text": "Head to The End and slay the Ender Dragon.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Dragon Wing Elytra", "color": "blue", "bold": true }
+    ]
   },
   "rewards": {
     "experience": 1000,

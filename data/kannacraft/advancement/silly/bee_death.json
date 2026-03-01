@@ -21,7 +21,11 @@
       }
     },
     "title": { "text": "Defeated by a bee" },
-    "description": { "text": "Battle a bee and lose" }
+    "description": [
+      { "text": "Battle a bee and lose.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Bee Head", "color": "blue", "bold": true }
+    ]
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
