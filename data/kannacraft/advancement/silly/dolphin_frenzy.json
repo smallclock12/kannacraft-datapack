@@ -1,5 +1,5 @@
 {
-  "parent": "kannacraft:kill_ender_dragon",
+  "parent": "kannacraft:silly/lava_chicken",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"
@@ -7,7 +7,7 @@
   },
   "display": {
     "icon": { "id": "minecraft:dolphin_spawn_egg" },
-    "title": { "text": "Dolphin Brutality" },
+    "title": { "text": "Dolphin Frenzy" },
     "description": [
       { "text": "Support the server by defeating 100 dolphins in battle.\n", "color": "white" },
       { "text": "Reward: ", "color": "green", "bold": true },
@@ -17,7 +17,7 @@
   },
   "rewards": {
     "experience": 160,
-    "loot": ["kannacraft:dolphin"],
+    "loot": ["kannacraft:items/tortugan_shell"],
     "function": "kannacraft:rankup_stage"
   }
 }

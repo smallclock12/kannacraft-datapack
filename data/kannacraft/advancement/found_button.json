@@ -16,7 +16,7 @@
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
-    "loot": ["kannacraft:head_box_1"],
+    "loot": ["kannacraft:heads/head_box_1"],
     "experience": 160
   }
 }

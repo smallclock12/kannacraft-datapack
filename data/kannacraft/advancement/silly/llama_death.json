@@ -29,7 +29,7 @@
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
-    "loot": ["kannacraft:llama"],
+    "loot": ["kannacraft:heads/llama"],
     "experience": 100
   }
 }

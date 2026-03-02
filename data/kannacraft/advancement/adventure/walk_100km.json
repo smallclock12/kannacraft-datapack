@@ -16,6 +16,6 @@
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
-    "loot": ["kannacraft:boots_1"]
+    "loot": ["kannacraft:items/thunder_boots"]
   }
 }

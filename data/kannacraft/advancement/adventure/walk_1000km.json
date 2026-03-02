@@ -16,6 +16,6 @@
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
-    "loot": ["kannacraft:boots_2"]
+    "loot": ["kannacraft:items/blazor_boots"]
   }
 }

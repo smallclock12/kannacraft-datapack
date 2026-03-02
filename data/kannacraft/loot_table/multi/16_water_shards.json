@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "value": "kannacraft:runic_water_shard"
+                    "value": "kannacraft:items/runic_water_shard"
                 }
             ]
         }

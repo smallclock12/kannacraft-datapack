@@ -9,6 +9,6 @@
     }
   },
   "rewards": {
-    "function": "kannacraft:advancements/dolphin_brutality_check"
+    "function": "kannacraft:advancements/dolphin_frenzy_check"
   }
 }

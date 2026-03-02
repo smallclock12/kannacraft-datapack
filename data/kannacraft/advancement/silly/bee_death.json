@@ -29,7 +29,7 @@
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
-    "loot": ["kannacraft:bee"],
+    "loot": ["kannacraft:heads/bee"],
     "experience": 100
   }
 }
