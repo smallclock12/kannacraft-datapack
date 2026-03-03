@@ -1,0 +1,50 @@
+{
+"type": "minecraft:loot_table",
+"pools": [
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:guster_pottery_sherd",
+                "functions": [
+                    {
+                        "function": "minecraft:set_count",
+                        "count": 1
+                    },
+                    {
+                        "function": "minecraft:set_name",
+                        "name": [
+                            {
+                                "text": "Runic Air Shard",
+                                "color": "white",
+                                "underlined": false,
+                                "bold": true,
+                                "italic": false
+                            }
+                        ]
+                    },
+                    {
+                        "function": "minecraft:set_lore",
+                        "mode": "append",
+                        "lore": [
+                            {
+                                "text": "A shard filled with air energy.",
+                                "color": "white",
+                                "italic": false
+                            }
+                        ]
+                    },
+                    {
+                        "function": "minecraft:set_enchantments",
+                        "enchantments": {
+                            "unbreaking": 5
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

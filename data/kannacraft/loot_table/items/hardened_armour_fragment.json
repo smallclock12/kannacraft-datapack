@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:flow_pottery_sherd",
+                    "name": "minecraft:dried_kelp",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -17,22 +17,11 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "text": "Runic Water Shard",
-                                    "color": "blue",
-                                    "underlined": false,
+                                    "text": "Hardened Armour Fragment",
+                                    "color": "aqua",
                                     "bold": true,
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "mode": "append",
-                            "lore": [
-                                {
-                                    "text": "A shard filled with water energy.",
-                                    "color": "blue",
-                                    "italic": false
+                                    "italic": false,
+                                    "underlined": false
                                 }
                             ]
                         },

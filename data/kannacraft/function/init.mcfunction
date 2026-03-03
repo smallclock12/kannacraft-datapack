@@ -11,10 +11,10 @@ scoreboard objectives add kc.tier dummy
 # legacy
 scoreboard objectives add DiamondSacrifice dummy
 # to change
-scoreboard objectives add RankUp dummy
-scoreboard objectives add Rank dummy
-scoreboard objectives add KannaCraftPoints dummy
-scoreboard objectives add KannaCraftRankAcb dummy
+#scoreboard objectives add RankUp dummy
+#scoreboard objectives add Rank dummy
+#scoreboard objectives add KannaCraftPoints dummy
+#scoreboard objectives add KannaCraftRankAcb dummy
 
 # displays
 scoreboard objectives setdisplay list Rank
@@ -56,3 +56,16 @@ scoreboard players set .6 kc.num 6
 scoreboard players set .7 kc.num 7
 scoreboard players set .8 kc.num 8
 scoreboard players set .9 kc.num 9
+
+
+scoreboard objectives add kc.acb dummy
+scoreboard objectives add kc.points dummy
+scoreboard objectives add kc.newbie dummy
+scoreboard objectives add kc.commoner dummy
+scoreboard objectives add kc.regular dummy
+scoreboard objectives add kc.noble dummy
+scoreboard players set .check kc.newbie 1
+scoreboard players set .check kc.commoner 5
+scoreboard players set .check kc.regular 12
+scoreboard players set .check kc.noble 26
+scoreboard objectives setdisplay list kc.points

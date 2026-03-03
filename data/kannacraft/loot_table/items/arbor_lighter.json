@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:elytra",
+                    "name": "minecraft:flint_and_steel",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -17,8 +17,8 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "text": "Dragon Wing Elytra",
-                                    "color": "red",
+                                    "text": "Arbor Lighter",
+                                    "color": "dark_red",
                                     "underlined": false,
                                     "bold": true,
                                     "italic": false
@@ -26,22 +26,9 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                {
-                                    "text": "A set of Elytra fashioned from dragon wings.",
-                                    "color": "red"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "mending": 1,
-                                "unbreaking": 5,
-                                "protection": 2,
-                                "fire_protection": 2
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {}
                             }
                         }
                     ]

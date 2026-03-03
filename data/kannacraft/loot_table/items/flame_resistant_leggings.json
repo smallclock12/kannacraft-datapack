@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:diamond_boots",
+                    "name": "minecraft:netherite_leggings",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -17,9 +17,8 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "text": "Blazing Boots",
-                                    "color": "dark_red",
-                                    "underlined": false,
+                                    "text": "Flame Resistant Leggings",
+                                    "color": "red",
                                     "bold": true,
                                     "italic": false
                                 }
@@ -29,35 +28,31 @@
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
                                 "protection": 4,
-                                "fire_protection": 2,
-                                "depth_strider": 3,
-                                "unbreaking": 10,
+                                "fire_protection": 3,
+                                "unbreaking": 5,
+                                "swift_sneak": 3,
                                 "mending": 1
                             }
                         },
                         {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:redstone",
+                                    "pattern": "minecraft:silence"
+                                }
+                            }
+                        },
+                        {
                             "function": "minecraft:set_attributes",
+                            "replace": false,
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:movement_speed",
                                     "operation": "add_value",
-                                    "amount": 0.05,
-                                    "slot": "feet",
-                                    "id": "kannacraft:boots_speed"
-                                },
-                                {
-                                    "attribute": "minecraft:armor",
-                                    "operation": "add_value",
-                                    "amount": 3,
-                                    "slot": "feet",
-                                    "id": "kannacraft:boots_armor"
-                                },
-                                {
-                                    "attribute": "minecraft:armor_toughness",
-                                    "operation": "add_value",
-                                    "amount": 3,
-                                    "slot": "feet",
-                                    "id": "kannacraft:boots_armor_toughness"
+                                    "amount": 0.01,
+                                    "slot": "legs",
+                                    "id": "kannacraft:legs_speed"
                                 }
                             ]
                         }

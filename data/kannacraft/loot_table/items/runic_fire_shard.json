@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:entity",
+    "type": "minecraft:loot_table",
     "pools": [
         {
             "rolls": 1,
@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:elytra",
+                    "name": "minecraft:burn_pottery_sherd",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -17,7 +17,7 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "text": "Dragon Wing Elytra",
+                                    "text": "Runic Fire Shard",
                                     "color": "red",
                                     "underlined": false,
                                     "bold": true,
@@ -27,21 +27,19 @@
                         },
                         {
                             "function": "minecraft:set_lore",
-                            "mode": "replace_all",
+                            "mode": "append",
                             "lore": [
                                 {
-                                    "text": "A set of Elytra fashioned from dragon wings.",
-                                    "color": "red"
+                                    "text": "A shard filled with fire energy.",
+                                    "color": "red",
+                                    "italic": false
                                 }
                             ]
                         },
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "mending": 1,
-                                "unbreaking": 5,
-                                "protection": 2,
-                                "fire_protection": 2
+                                "unbreaking": 5
                             }
                         }
                     ]

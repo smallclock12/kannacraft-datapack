@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:entity",
+    "type": "minecraft:loot_table",
     "pools": [
         {
             "rolls": 1,
@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:elytra",
+                    "name": "minecraft:explorer_pottery_sherd",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -17,8 +17,8 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "text": "Dragon Wing Elytra",
-                                    "color": "red",
+                                    "text": "Runic Earth Shard",
+                                    "color": "dark_green",
                                     "underlined": false,
                                     "bold": true,
                                     "italic": false
@@ -27,21 +27,19 @@
                         },
                         {
                             "function": "minecraft:set_lore",
-                            "mode": "replace_all",
+                            "mode": "append",
                             "lore": [
                                 {
-                                    "text": "A set of Elytra fashioned from dragon wings.",
-                                    "color": "red"
+                                    "text": "A shard filled with earth energy.",
+                                    "color": "dark_green",
+                                    "italic": false
                                 }
                             ]
                         },
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "mending": 1,
-                                "unbreaking": 5,
-                                "protection": 2,
-                                "fire_protection": 2
+                                "unbreaking": 5
                             }
                         }
                     ]
