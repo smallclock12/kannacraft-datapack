@@ -11,10 +11,11 @@ scoreboard players add @s kc.noble 0
 advancement revoke @s only kannacraft:ranks/add
 
 # acb
-function gu:generate with entity @s
-data modify storage kannacraft:tmp acb.user set from storage gu:main out
-data modify storage kannacraft:tmp acb.value set value 500 
-function kannacraft:macros/acb with storage kannacraft:tmp acb
+# TODO: take this out of scope of playr
+#function gu:generate with entity @s
+#data modify storage kannacraft:tmp acb.user set from storage gu:main out
+#data modify storage kannacraft:tmp acb.value set value 500 
+#function kannacraft:macros/acb with storage kannacraft:tmp acb
 
 # check for rank up, if hit rank up trigger advancement
 execute if score @s kc.newbie < .1 kc.num if score @s kc.points >= .check kc.newbie run scoreboard players set @s kc.newbie 1
