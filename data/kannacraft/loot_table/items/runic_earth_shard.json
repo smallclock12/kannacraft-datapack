@@ -1,22 +1,13 @@
 {
-    "type": "minecraft:entity",
+    "type": "minecraft:loot_table",
     "pools": [
         {
             "rolls": 1,
-            "conditions": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": ["zombie"]
-                    }
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 100,
-                    "name": "minecraft:flow_pottery_sherd",
+                    "weight": 1,
+                    "name": "minecraft:explorer_pottery_sherd",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -26,8 +17,8 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "text": "Runic Shard",
-                                    "color": "dark_purple",
+                                    "text": "Runic Earth Shard",
+                                    "color": "dark_green",
                                     "underlined": false,
                                     "bold": true,
                                     "italic": false
@@ -39,13 +30,8 @@
                             "mode": "append",
                             "lore": [
                                 {
-                                    "text": "A shard filled with runic energy.",
-                                    "color": "blue",
-                                    "italic": false
-                                },
-                                {
-                                    "text": "I wonder if this can be traded somewhere?",
-                                    "color": "blue",
+                                    "text": "A shard filled with earth energy.",
+                                    "color": "dark_green",
                                     "italic": false
                                 }
                             ]

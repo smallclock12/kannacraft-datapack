@@ -2,7 +2,7 @@
     "type": "minecraft:loot_table",
     "pools": [
         {
-            "rolls": 16,
+            "rolls": 64,
             "entries": [
                 {
                     "type": "minecraft:loot_table",

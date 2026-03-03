@@ -1,5 +1,5 @@
 {
-  "parent": "kannacraft:adventure/visit_water_altar",
+  "parent": "kannacraft:sites/water_visit",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"
@@ -13,7 +13,7 @@
         "minecraft:enchantments": {"minecraft:unbreaking": 5}
       }
     },
-    "title": { "text": "Kill 100 Water Altar Guardians" },
+    "title": { "text": "[WIP] Kill 100 Water Altar Guardians" },
     "description": [
       { "text": "Reward: ", "color": "green", "bold": true },
       { "text": "Sturdy Tool Handle", "color": "blue", "bold": true }
@@ -21,7 +21,7 @@
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
-    "loot": ["kannacraft:sturdy_tool_handle"]
+    "loot": ["kannacraft:items/sturdy_tool_handle"]
   }
 }
 

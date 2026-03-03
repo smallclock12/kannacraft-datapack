@@ -15,7 +15,7 @@
     ]
   },
   "rewards": {
-    "loot": ["kannacraft:diamond_sacrifice_2"],
+    "loot": ["kannacraft:heads/diamond_block"],
     "function": "kannacraft:rankup_stage"
   }
 }

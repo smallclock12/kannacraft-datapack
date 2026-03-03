@@ -1,0 +1,85 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 646
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 250,
+                    "value": "kannacraft:items/runic_fire_shard"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 4,
+                    "value": "kannacraft:items/hardened_armour_fragment"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "value": "kannacraft:items/runic_fire_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "min": 2, "max": 3 }
+                        }
+                    ]
+
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type":["minecraft:wither_skeleton"]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "minecraft:entities/wither_skeleton"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type":["minecraft:blaze"]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "minecraft:entities/blaze"
+                }
+            ]
+        }
+    ]
+}

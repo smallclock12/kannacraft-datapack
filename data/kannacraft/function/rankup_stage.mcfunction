@@ -1,2 +1,2 @@
-scoreboard players add @s KannaCraftPoints 1
-scoreboard players add @s RankUp 1
+# deprecated, use kannacraft:ranks/trigger instead
+execute as @s run function kannacraft:ranks/trigger

@@ -1,32 +1,34 @@
 # player specific storage
-scoreboard objectives add RankUp dummy
-scoreboard objectives add Rank dummy
-scoreboard objectives add KannaCraftPoints dummy
-scoreboard objectives add DolphinBrutalityCheck minecraft.killed:minecraft.dolphin
-scoreboard objectives add TierSuccessResult dummy
+scoreboard objectives add kc.lavachickencooldown dummy
+scoreboard objectives add kc.lavachickencount dummy
+scoreboard objectives add kc.playtime minecraft.custom:minecraft.play_time
+scoreboard objectives add kc.walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add kc.dolphin minecraft.killed:minecraft.dolphin
+scoreboard objectives add kc.diamondsacrifice dummy
+scoreboard objectives add kc.num dummy
+scoreboard objectives add kc.tier dummy
+
+# legacy
 scoreboard objectives add DiamondSacrifice dummy
-scoreboard objectives add KannaCraftSuccess dummy
-scoreboard objectives add KannaCraftRankAcb dummy
-scoreboard objectives add kclavachickencooldown dummy
-scoreboard objectives add kclavachickencount dummy
-scoreboard objectives add kcplaytime minecraft.custom:minecraft.play_time
-scoreboard objectives add kcwalk minecraft.custom:minecraft.walk_one_cm
+# to change
+#scoreboard objectives add RankUp dummy
+#scoreboard objectives add Rank dummy
+#scoreboard objectives add KannaCraftPoints dummy
+#scoreboard objectives add KannaCraftRankAcb dummy
 
 # displays
 scoreboard objectives setdisplay list Rank
 
 # values to check
-scoreboard players set .tier1 DiamondSacrifice 1
-scoreboard players set .tier2 DiamondSacrifice 10
-scoreboard players set .tier3 DiamondSacrifice 64
-scoreboard players set .success TierSuccessResult 1
-scoreboard players set .success KannaCraftSuccess 1
-scoreboard players set .check DolphinBrutalityCheck 100
-scoreboard players set .checkafter DolphinBrutalityCheck 99
-scoreboard players set .check kclavachickencount 10
-scoreboard players set .check kclavachickencooldown 2400
-scoreboard players set .check100 kcwalk 100000000
-scoreboard players set .check1000 kcwalk 1000000000
+scoreboard players set .tier1 kc.diamondsacrifice 1
+scoreboard players set .tier2 kc.diamondsacrifice 10
+scoreboard players set .tier3 kc.diamondsacrifice 64
+scoreboard players set .check kc.dolphin 100
+scoreboard players set .checkafter kc.dolphin 99
+scoreboard players set .check kc.lavachickencount 10
+scoreboard players set .check kc.lavachickencooldown 2400
+scoreboard players set .check100 kc.walk 100000000
+scoreboard players set .check1000 kc.walk 1000000000
 scoreboard players set .default RankUp 0
 scoreboard players set .reduce RankUp 1
 
@@ -42,15 +44,28 @@ scoreboard players set .tier9 Rank 36
 scoreboard players set .tier10 Rank 50
 
 # can use these in checks
-scoreboard players set .-2 KannaCraftPoints -2
-scoreboard players set .-1 KannaCraftPoints -1
-scoreboard players set .0 KannaCraftPoints 0
-scoreboard players set .1 KannaCraftPoints 1
-scoreboard players set .2 KannaCraftPoints 2
-scoreboard players set .3 KannaCraftPoints 3
-scoreboard players set .4 KannaCraftPoints 4
-scoreboard players set .5 KannaCraftPoints 5
-scoreboard players set .6 KannaCraftPoints 6
-scoreboard players set .7 KannaCraftPoints 7
-scoreboard players set .8 KannaCraftPoints 8
-scoreboard players set .9 KannaCraftPoints 9
+scoreboard players set .-2 kc.num -2
+scoreboard players set .-1 kc.num -1
+scoreboard players set .0 kc.num 0
+scoreboard players set .1 kc.num 1
+scoreboard players set .2 kc.num 2
+scoreboard players set .3 kc.num 3
+scoreboard players set .4 kc.num 4
+scoreboard players set .5 kc.num 5
+scoreboard players set .6 kc.num 6
+scoreboard players set .7 kc.num 7
+scoreboard players set .8 kc.num 8
+scoreboard players set .9 kc.num 9
+
+
+scoreboard objectives add kc.acb dummy
+scoreboard objectives add kc.points dummy
+scoreboard objectives add kc.newbie dummy
+scoreboard objectives add kc.commoner dummy
+scoreboard objectives add kc.regular dummy
+scoreboard objectives add kc.noble dummy
+scoreboard players set .check kc.newbie 1
+scoreboard players set .check kc.commoner 5
+scoreboard players set .check kc.regular 12
+scoreboard players set .check kc.noble 26
+scoreboard objectives setdisplay list kc.points

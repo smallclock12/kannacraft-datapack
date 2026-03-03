@@ -20,6 +20,6 @@
   "rewards": {
     "experience": 1000,
     "function": "kannacraft:rankup_stage",
-    "loot":["kannacraft:dragon"]
+    "loot":["kannacraft:items/dragon_wing_elytra"]
   }
 }

@@ -17,6 +17,6 @@
   },
   "rewards": {
     "function": "kannacraft:rankup_stage",
-    "loot": ["kannacraft:diamond_sacrifice_3"]
+    "loot": ["kannacraft:items/artificers_pickaxe"]
   }
 }

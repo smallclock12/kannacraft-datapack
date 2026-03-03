@@ -1,0 +1,64 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Flame Resistant Leggings",
+                                    "color": "red",
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "protection": 4,
+                                "fire_protection": 3,
+                                "unbreaking": 5,
+                                "swift_sneak": 3,
+                                "mending": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:redstone",
+                                    "pattern": "minecraft:silence"
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "replace": false,
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:movement_speed",
+                                    "operation": "add_value",
+                                    "amount": 0.01,
+                                    "slot": "legs",
+                                    "id": "kannacraft:legs_speed"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

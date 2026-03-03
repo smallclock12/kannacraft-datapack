@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:entity",
+    "type": "minecraft:loot_table",
     "pools": [
         {
             "rolls": 1,
@@ -7,7 +7,7 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "minecraft:diamond_boots",
+                    "name": "minecraft:netherite_sword",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -17,7 +17,7 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "text": "Blazing Boots",
+                                    "text": "Meteor Blade",
                                     "color": "dark_red",
                                     "underlined": false,
                                     "bold": true,
@@ -28,36 +28,45 @@
                         {
                             "function": "minecraft:set_enchantments",
                             "enchantments": {
-                                "protection": 4,
-                                "fire_protection": 2,
-                                "depth_strider": 4,
-                                "unbreaking": 10,
-                                "mending": 1
+                                "mending": 1,
+                                "unbreaking": 5,
+                                "sharpness": 5,
+                                "smite": 3,
+                                "looting": 3,
+                                "sweeping_edge": 3,
+                                "fire_aspect": 3
                             }
                         },
                         {
                             "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "minecraft:movement_speed",
+                                    "attribute": "minecraft:attack_damage",
                                     "operation": "add_value",
-                                    "amount": 0.05,
-                                    "slot": "feet",
-                                    "id": "kannacraft:boots_speed"
+                                    "amount": 7.5,
+                                    "slot": "mainhand",
+                                    "id": "kannacraft:mainhand_damage"
                                 },
                                 {
-                                    "attribute": "minecraft:armor",
+                                    "attribute": "minecraft:attack_speed",
                                     "operation": "add_value",
-                                    "amount": 3,
-                                    "slot": "feet",
-                                    "id": "kannacraft:boots_armor"
+                                    "amount": -2,
+                                    "slot": "mainhand",
+                                    "id": "kannacraft:mainhand_speed"
                                 },
                                 {
-                                    "attribute": "minecraft:armor_toughness",
+                                    "attribute": "minecraft:knockback_resistance",
                                     "operation": "add_value",
-                                    "amount": 3,
-                                    "slot": "feet",
-                                    "id": "kannacraft:boots_armor_toughness"
+                                    "amount": 0.1,
+                                    "slot": "mainhand",
+                                    "id": "kannacraft:mainhand_kb"
+                                },
+                                {
+                                    "attribute": "armor",
+                                    "operation": "add_value",
+                                    "amount": 1,
+                                    "slot": "mainhand",
+                                    "id": "kannacraft:mainhand_armor"
                                 }
                             ]
                         }
