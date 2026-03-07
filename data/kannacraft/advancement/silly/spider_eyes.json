@@ -1,0 +1,20 @@
+{
+  "parent": "kannacraft:silly/lava_chicken",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:spider_eye" },
+    "title": { "text": "Tasty" },
+    "description": [
+      { "text": "Eat 128 spiders eyes\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "None", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage"
+  }
+}

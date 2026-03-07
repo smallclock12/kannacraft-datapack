@@ -1,0 +1,22 @@
+{
+  "parent": "kannacraft:challenges/diamond_sacrifice_1",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:iron_boots" },
+    "title": { "text": "Walk 100km" },
+    "description": [
+      { "text": "Just walk 100km.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Thunder Boots", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "function": "kannacraft:ranks/trigger",
+    "loot": ["kannacraft:items/thunder_boots"]
+  },
+  "hidden": false
+}

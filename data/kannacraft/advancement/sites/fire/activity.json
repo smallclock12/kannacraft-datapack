@@ -1,0 +1,22 @@
+{
+  "parent": "kannacraft:sites/fire/visit",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { 
+      "id":"minecraft:raw_gold_block"
+    },
+    "title": { "text": "Find the rare metals around the meteor site" },
+    "description": [
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "16x Runic Fire Shards", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "function": "kannacraft:ranks/trigger",
+    "loot": ["kannacraft:multi/16_runic_fire_shard"]
+  }
+}

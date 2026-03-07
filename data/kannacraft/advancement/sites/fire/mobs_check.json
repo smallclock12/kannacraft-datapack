@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": ["minecraft:wither_skeleton","minecraft:blaze"],
+          "location": {
+            "biomes":["kannacraft:meteor_site"]
+          },
+          "nbt": {
+            "Tags": ["fire_mob"]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kannacraft:gameplay/fire/mob_killed"
+  }
+}

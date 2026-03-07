@@ -1,0 +1,34 @@
+{
+"parent": "kannacraft:snails/snails",
+"criteria": {
+  "requirement": {
+    "trigger": "minecraft:location",
+    "conditions": {
+      "player": {
+        "location": {
+          "biomes": "kannacraft:meteor_site"
+        }
+      }
+    }
+  }
+},
+"display": {
+  "icon": { 
+    "id":"burn_pottery_sherd",
+    "components": { 
+      "minecraft:custom_name": {"italic": false, "underlined": false, "text": "Runic Fire Shard", "bold": true, "color": "red"}, 
+      "minecraft:enchantments": {"minecraft:unbreaking": 5}
+    }
+  },
+  "title": { "text": "Visit The Meteor Site" },
+  "description": [
+    { "text": "Find and visit the meteor site, there is a meteorologist hanging around spawn that can point you in the right direction.\n", "color": "white" },
+    { "text": "Reward: ", "color": "green", "bold": true },
+    { "text": "16x Runic Fire Shard", "color": "blue", "bold": true }
+  ]
+},
+"rewards": {
+  "function": "kannacraft:ranks/trigger",
+  "loot": ["kannacraft:multi/16_fire_shards"]
+}
+}

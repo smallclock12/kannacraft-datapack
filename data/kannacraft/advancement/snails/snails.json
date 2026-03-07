@@ -1,0 +1,20 @@
+{
+  "parent": "kannacraft:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:nautilus_shell" },
+    "title": { "text": "Find the snails" },
+    "description": [
+      { "text": "Find the snails hidden around spawn!\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Head Box 1", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "function": "kannacraft:ranks/trigger"
+  }
+}

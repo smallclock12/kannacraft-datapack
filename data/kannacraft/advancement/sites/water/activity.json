@@ -1,0 +1,23 @@
+{
+  "parent": "kannacraft:sites/water/visit",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { 
+      "id":"minecraft:cod"
+    },
+    "title": { "text": "Water Altar Fishing" },
+    "description": [
+      { "text": "Fish Up 10 Runic Water Shards around the water alter.\n", "color": "white"},
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "16x Runic Water Shards", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "function": "kannacraft:ranks/trigger",
+    "loot": ["kannacraft:multi/16_runic_water_shards"]
+  }
+}

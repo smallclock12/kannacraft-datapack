@@ -1,5 +1,5 @@
 {
-  "parent": "kannacraft:silly/bee_death",
+  "parent": "kannacraft:silly/llama_death",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

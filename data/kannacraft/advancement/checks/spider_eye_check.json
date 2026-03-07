@@ -1,0 +1,16 @@
+{
+  "parent": "kannacraft:checks/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:spider_eye"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kannacraft:advancements/spider_eye_check"
+  }
+}

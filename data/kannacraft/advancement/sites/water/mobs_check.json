@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": ["minecraft:drowned"],
+          "location": {
+            "biomes":["kannacraft:water_altar"]
+          },
+          "nbt": {
+            "Tags": ["water_altar_mob"]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kannacraft:gameplay/water/mob_killed"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "kannacraft:found_button",
+  "parent": "kannacraft:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

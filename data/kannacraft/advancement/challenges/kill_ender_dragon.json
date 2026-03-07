@@ -1,0 +1,26 @@
+{
+  "parent": "kannacraft:challenges/dolphin_frenzy",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": { "type": "minecraft:ender_dragon" }
+      }
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:ender_dragon_spawn_egg" },
+    "title": { "text": "Defeat the ender dragon!" },
+    "description": [
+      { "text": "Head to The End and slay the Ender Dragon.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Dragon Wing Elytra", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "experience": 1000,
+    "function": "kannacraft:rankup_stage",
+    "loot":["kannacraft:items/dragon_wing_elytra"]
+  },
+  "hidden": false
+}

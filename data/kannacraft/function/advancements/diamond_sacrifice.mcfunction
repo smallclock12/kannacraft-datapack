@@ -10,6 +10,6 @@ execute store result storage kannacraft:tmp diamondcount int 1 run scoreboard pl
 
 function kannacraft:logs/diamond_sacrifice with storage kannacraft:tmp
 
-execute if score @s kc.diamondsacrifice >= .tier1 kc.diamondsacrifice run advancement grant @s only kannacraft:diamond_sacrifice_1
-execute if score @s kc.diamondsacrifice >= .tier2 kc.diamondsacrifice run advancement grant @s only kannacraft:diamond_sacrifice_2
-execute if score @s kc.diamondsacrifice >= .tier3 kc.diamondsacrifice run advancement grant @s only kannacraft:diamond_sacrifice_3
+execute if score @s kc.diamondsacrifice >= .tier1 kc.diamondsacrifice run advancement grant @s only kannacraft:challenges/diamond_sacrifice_1
+execute if score @s kc.diamondsacrifice >= .tier2 kc.diamondsacrifice run advancement grant @s only kannacraft:challenges/diamond_sacrifice_2
+execute if score @s kc.diamondsacrifice >= .tier3 kc.diamondsacrifice run advancement grant @s only kannacraft:challenges/diamond_sacrifice_3

@@ -1,5 +1,3 @@
-scoreboard players set @s kc.regular 2
-
 function gu:generate with entity @s
 data modify storage kannacraft:tmp rankup.user set from storage gu:main out
 data modify storage kannacraft:tmp rankup.rank set value "regular"

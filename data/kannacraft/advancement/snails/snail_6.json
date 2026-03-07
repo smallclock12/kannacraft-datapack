@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -26,
+                "max": -20
+              },
+              "y": {
+                "min": 70,
+                "max": 74
+              },
+              "z": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kannacraft:gameplay/snails/found_snail"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:location_check",
+                    "entity": "this",
+                    "predicate": {
+                        "biomes": ["kannacraft:water_altar"]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 85
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 15,
+                    "value": "kannacraft:items/runic_water_shard"
+                }
+            ]
+        }
+    ]
+}
+

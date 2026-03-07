@@ -1,0 +1,22 @@
+{
+  "parent": "kannacraft:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:diamond_block" },
+    "title": { "text": "Diamond Sacrifice" },
+    "description": [
+      { "text": "Sacrifice a diamond block at spawn.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Diamond Ore Head", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "function": "kannacraft:rankup_stage",
+    "loot": ["kannacraft:heads/diamond_ore"]
+  },
+  "hidden": false
+}

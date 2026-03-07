@@ -1,0 +1,23 @@
+{
+  "parent": "kannacraft:sites/fire/activity",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { 
+      "id":"minecraft:wither_skeleton_skull"
+    },
+    "title": { "text": "Meteor Site Clearance" },
+    "description": [
+      { "text": "Kill 100 mobs around the meteor site.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Hardened Armour Fragment", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "function": "kannacraft:ranks/trigger",
+    "loot": ["kannacraft:items/hardened_armour_fragment"]
+  }
+}

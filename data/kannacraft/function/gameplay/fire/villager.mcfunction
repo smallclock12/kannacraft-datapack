@@ -1,0 +1,1 @@
+minecraft:summon villager ~ ~ ~ {Tags:["fire_villager"],Persistent:true,Silent:true,CustomName:["Meteorologist"],Invulnerable:true,VillagerData:{type:savanna,profession:weaponsmith,level:99},Offers:{Recipes:[]}}

@@ -1,0 +1,12 @@
+{
+  "parent": "kannacraft:sites/fire/activity",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "kannacraft:gameplay/fire/found_gold",
+    "loot": ["kannacraft:loot/fire_activity"]
+  }
+}

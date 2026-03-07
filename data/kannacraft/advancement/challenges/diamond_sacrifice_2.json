@@ -1,0 +1,22 @@
+{
+  "parent": "kannacraft:challenges/diamond_sacrifice_1",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": { "id": "minecraft:diamond_block" },
+    "title": { "text": "Diamond Sacrifice!!" },
+    "description": [
+      { "text": "Sacrifice 10 diamond blocks at spawn.\n", "color": "white" },
+      { "text": "Reward: ", "color": "green", "bold": true },
+      { "text": "Diamond Block Head", "color": "blue", "bold": true }
+    ]
+  },
+  "rewards": {
+    "loot": ["kannacraft:heads/diamond_block"],
+    "function": "kannacraft:rankup_stage"
+  },
+  "hidden": false
+}
